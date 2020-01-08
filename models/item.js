@@ -27,3 +27,4 @@ const ItemSchema = new mongoose.Schema({
 
 const Item = mongoose.model('item', ItemSchema)
 module.exports = Item
+let PASSWORD = '12345'
